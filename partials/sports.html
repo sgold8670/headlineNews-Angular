@@ -1,0 +1,16 @@
+<div ng-controller="SportsController">
+       {{ error }} 
+      <ul ng-repeat="article in data.articles" >
+        <li>
+            <div class="line-margin">
+                <div class="list-group">
+                <a href=" {{article.url}} " class="list-group-item">
+                    <h4> {{article.title }}</h4>
+                    <p>{{article.summary}}</p>
+                </a>
+                </div><!-- end of list-group -->
+            </div><!-- end of line-margin -->
+        </li>
+      </ul>  	
+</div>
+

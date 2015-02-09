@@ -1,0 +1,34 @@
+body {background-color:#EEE;}
+
+ul {margin:0px; padding:0px;}
+li {list-style:none;}
+
+.active {background-color:#07093D;}
+
+.list-group {margin-bottom:0px;}
+.list-group-item {padding-top:0px; padding-bottom:0px;}
+.list-group-item h4 {color:#07093D; margin-top:5px; margin-bottom:2px;}
+.list-group-item p {margin-bottom:5px;}
+.line-margin {margin:10px 20px;}
+
+#heading {background-color:#0A2E56;}
+#heading h1 {color:#fff;}
+#heading p {color:#fff;}
+
+#menu {background-color:#0a2e56; color:#FFF; display:flex;}
+#menu div {flex:1; padding:15px 0px; text-align:center;}
+#menu div a {color:#fff; text-decoration:none;}
+#menu div a:hover {color:#C1C1FF;}
+#menu div:hover {}
+
+#sports {border-left:1px solid #fff; border-right:1px solid #fff;}
+
+/* Note: In Chrome Dev Tools, min and max-width numbers change at 45px higher than specified*/
+@media (max-width: 370px) {
+       #menu h4 {
+          font-size:14px;
+        }
+
+
+
+
